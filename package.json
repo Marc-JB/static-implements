@@ -1,0 +1,30 @@
+{
+  "name": "ts-static-implements",
+  "version": "1.0.0",
+  "description": "Define static methods in interfaces in TypeScript",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marc-JB/ts-static-implements.git"
+  },
+  "keywords": [
+    "typescript",
+    "ts",
+    "implements",
+    "interface",
+    "static"
+  ],
+  "author": "Marc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Marc-JB/ts-static-implements/issues"
+  },
+  "homepage": "https://github.com/Marc-JB/ts-static-implements#readme",
+  "devDependencies": {
+    "typescript": "^3.1.3"
+  }
+}
