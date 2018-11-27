@@ -1,6 +1,6 @@
 {
   "name": "@peregrine/static-implements",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Define static methods in interfaces in TypeScript",
   "main": "build/main/index.js",
   "types": "build/main/index.d.ts",

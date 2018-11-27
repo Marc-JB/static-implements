@@ -1,6 +1,8 @@
 # static-implements
 Define static methods in interfaces in TypeScript
 
+**Note: you might have to add/enable `"experimentalDecorators": true` in your `tsconfig.json`**
+
 ## Usage
 **MyInterface.ts**
 ```TypeScript
