@@ -1,15 +1,16 @@
 {
-  "name": "ts-static-implements",
+  "name": "@peregrine/static-implements",
   "version": "1.0.0",
   "description": "Define static methods in interfaces in TypeScript",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "build/main/index.js",
+  "types": "build/main/index.d.ts",
   "scripts": {
+    "build": "tsc -b -v",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Marc-JB/ts-static-implements.git"
+    "url": "git+https://github.com/Peregrine-node/static-implements.git"
   },
   "keywords": [
     "typescript",
@@ -21,10 +22,10 @@
   "author": "Marc",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Marc-JB/ts-static-implements/issues"
+    "url": "https://github.com/Peregrine-node/static-implements/issues"
   },
-  "homepage": "https://github.com/Marc-JB/ts-static-implements#readme",
+  "homepage": "https://github.com/Peregrine-node/static-implements#readme",
   "devDependencies": {
-    "typescript": "^3.1.3"
+    "typescript": "^3.1.6"
   }
 }

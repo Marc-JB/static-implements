@@ -1,4 +1,4 @@
-# ts-static-implements
+# static-implements
 Define static methods in interfaces in TypeScript
 
 ## Usage
@@ -12,7 +12,7 @@ interface MyInterface {
 
 **MyClass.ts**
 ```TypeScript
-import ImplementsStatic from "ts-static-implements"
+import ImplementsStatic from "static-implements"
 import MyInterface from "./MyInterface"
 
 @ImplementsStatic<MyInterface>() // instead of "class MyClass implements MyInterface"
