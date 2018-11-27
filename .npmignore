@@ -60,11 +60,16 @@ typings/
 # next.js build output
 .next
 
-# Typescript build output
-build/
+# Source files
+src/
+tsconfig.json
+
+# Tests
+build/tests/
 
 # VSCode
 .vscode/
+*.code-workspace
 
 # Other
 package-lock.json
