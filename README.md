@@ -20,8 +20,8 @@ import ImplementsStatic from "@peregrine/static-implements"
 import MyInterface from "./MyInterface"
 
 @ImplementsStatic<MyInterface>() // instead of "class MyClass implements MyInterface"
-class MyClass {
-    static greeting(): string {
+export default class MyClass {
+    public static greeting(): string {
         return "Hello World!"
     }
 }
